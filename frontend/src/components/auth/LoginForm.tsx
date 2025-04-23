@@ -54,7 +54,7 @@ const LoginForm: React.FC = () => {
           
           <Input
            // label="UID"
-           // type="text"
+           type="text"
             placeholder="UID"
             error={errors.uid?.message}
             {...register('uid')}
@@ -62,7 +62,7 @@ const LoginForm: React.FC = () => {
           
           <Input
             //label="Password"
-            //type="password"
+            type="password"
             placeholder="password"
             error={errors.password?.message}
             {...register('password')}
